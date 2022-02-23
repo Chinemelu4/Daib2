@@ -11,7 +11,7 @@ st.write("""
 """)
 image=Image.open('med.jpg')
 st.image(image)
-model = pickle.load(open('class_model.sav', 'rb'))
+model = pickle.load(open('class_model.pkl', 'rb'))
 
 scaler=pickle.load(open('scaler2.pkl', 'rb'))
 
