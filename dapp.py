@@ -1,4 +1,3 @@
-
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -7,7 +6,7 @@ from PIL import Image
 
 
 st.write("""
-# DIABETICS STATUS PREDICTION APP!
+# DIABETICS STATUS PREDICTION APP!!
 """)
 image=Image.open('med.jpg')
 st.image(image)
